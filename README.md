@@ -72,6 +72,7 @@ docker run \
     --restart=always \
     -p 500:500/udp \
     -p 4500:4500/udp \
+    -p 1701:1701/udp \
     -v /lib/modules:/lib/modules:ro \
     -d --privileged \
     hwdsl2/ipsec-vpn-server
