@@ -194,8 +194,8 @@ auth
 mtu 1280
 mru 1280
 proxyarp
-lcp-echo-failure 4
-lcp-echo-interval 30
+lcp-echo-failure 0
+lcp-echo-interval 0
 connect-delay 5000
 EOF
 
